@@ -5,7 +5,6 @@ using namespace std;
 int Enter();
 void HanoiTower(int disk, int from, int to, int buf);
 
-
 int main()
 {
     int disk, from, to, buf;
@@ -34,10 +33,7 @@ int main()
         cout << "First move to " << to << endl;
 
     cout << "The order of moving disks\nfrom -> to\n";
-    HanoiTower(disk, from, to, buf);
-
-    cout << "f t b " << from << to << buf;
-        
+    HanoiTower(disk, from, to, buf);        
 }
 int Enter()
 {
